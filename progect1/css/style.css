@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+/*Шрифты*/
+.wrapper{
+
+}
+.header {
+  text-align: center;
+  border-bottom: 2px solid #CC00CC;
+  padding: 20px;
+}
+.header-link{
+  color: #990099;
+  margin: 20px;
+  text-decoration: none;
+}
+.header-link:hover{
+  color: #cc0000;
+  text-decoration: underline;
+  transition: 1s;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.content-img {
+  padding: 10px;
+  order:0;
+  
+}
+.content-about{
+  order: 2;
+}
+.content-contacts {
+  color: #330033;
+}
+.content-links{
+  display: flex;
+  flex-direction: column;
+}
+.content-links-link{
+  color: #990099;
+  margin: 20px;
+  text-decoration: none;
+}
+.content-links-link:hover{
+  color: #cc0000;
+  text-decoration: underline;
+  transition: 1s;
+}
+.content-links-link:nth-child(1){
+  background: url("../icons/email_black_24dp.svg") no-repeat 0 5px;
+  background-size: 16px; 
+  padding-left: 25px;
+}
+.content-links-link:nth-child(2){
+  background: url("../icons/chat_black_24dp.svg") no-repeat 0 5px;
+  background-size: 16px; 
+  padding-left: 25px;
+}
+.content-links-link:nth-child(3){
+  background: url("../icons/discord-svgrepo-com.svg") no-repeat 0 5px;
+  background-size: 16px; 
+  padding-left: 25px;
+}
+.content-img img{
+  border: 1px solid #9900CC;
+  border-radius: 5px;
+}
+.content-h {
+  border-left: 5px solid #CC00CC;
+  border-bottom: 5px solid #CC00CC;
+  border-radius: 5px;
+  color: #330033;
+  font-family: PT Serif, 'Times New Roman', Times, serif;
+}
+.content-h:first-child{
+  border: none;
+}
+.content-info{
+  font-family: Open Sans, Arial, sans-serif;
+}
+.footer {
+  border-top: 2px solid #CC00CC; 
+  text-align: center;
+}
